@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import Spring
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var button: SpringButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+     }
+    
+    @IBAction func toutch(){
+        //ボタンの設定
+        button.animation = "shake"
+        button.duration = 1.0
+        button.animate()
     }
 
     override func didReceiveMemoryWarning() {

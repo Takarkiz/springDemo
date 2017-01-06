@@ -14,6 +14,9 @@
 		3CCE2A631E1CAB25002113AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCE2A611E1CAB25002113AC /* LaunchScreen.storyboard */; };
 		3CCE2A6E1E1CAB25002113AC /* springDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2A6D1E1CAB25002113AC /* springDemoTests.swift */; };
 		3CCE2A791E1CAB25002113AC /* springDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE2A781E1CAB25002113AC /* springDemoUITests.swift */; };
+		7DF2F02124090F90097F0C72 /* Pods_springDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEBFBC0CECBE52C604602B0 /* Pods_springDemoTests.framework */; };
+		86E5FE71E38D7F9957E75A2B /* Pods_springDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163DE77A135E4D588BD9EB6A /* Pods_springDemoUITests.framework */; };
+		8928841BCACA04FE1FC79955 /* Pods_springDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB871DBEA2B46BC50786FA /* Pods_springDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD13BD5A03A2DAF1CB2A24B /* Pods-springDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-springDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-springDemoUITests/Pods-springDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		163DE77A135E4D588BD9EB6A /* Pods_springDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_springDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCE2A551E1CAB25002113AC /* springDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = springDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCE2A581E1CAB25002113AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCE2A5A1E1CAB25002113AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		3CCE2A741E1CAB25002113AC /* springDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = springDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCE2A781E1CAB25002113AC /* springDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = springDemoUITests.swift; sourceTree = "<group>"; };
 		3CCE2A7A1E1CAB25002113AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEBFBC0CECBE52C604602B0 /* Pods_springDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_springDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBEFC1912FB4FD5DDB0234F /* Pods-springDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-springDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-springDemoTests/Pods-springDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6E0F906FF29DE922BB5B318 /* Pods-springDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-springDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-springDemo/Pods-springDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CACB871DBEA2B46BC50786FA /* Pods_springDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_springDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D963642B932D9E59BAFF97 /* Pods-springDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-springDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-springDemoUITests/Pods-springDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF00BD190FDB4A17E149568B /* Pods-springDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-springDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-springDemoTests/Pods-springDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA5ECEC6C76CBC9189AB8274 /* Pods-springDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-springDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-springDemo/Pods-springDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8928841BCACA04FE1FC79955 /* Pods_springDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF2F02124090F90097F0C72 /* Pods_springDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E5FE71E38D7F9957E75A2B /* Pods_springDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				3CCE2A6C1E1CAB25002113AC /* springDemoTests */,
 				3CCE2A771E1CAB25002113AC /* springDemoUITests */,
 				3CCE2A561E1CAB25002113AC /* Products */,
+				D112098D583DAB0306FF5623 /* Pods */,
+				4CB535A69C8A587DAD989817 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = springDemoUITests;
 			sourceTree = "<group>";
 		};
+		4CB535A69C8A587DAD989817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACB871DBEA2B46BC50786FA /* Pods_springDemo.framework */,
+				3FEBFBC0CECBE52C604602B0 /* Pods_springDemoTests.framework */,
+				163DE77A135E4D588BD9EB6A /* Pods_springDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D112098D583DAB0306FF5623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5ECEC6C76CBC9189AB8274 /* Pods-springDemo.debug.xcconfig */,
+				C6E0F906FF29DE922BB5B318 /* Pods-springDemo.release.xcconfig */,
+				EF00BD190FDB4A17E149568B /* Pods-springDemoTests.debug.xcconfig */,
+				4CBEFC1912FB4FD5DDB0234F /* Pods-springDemoTests.release.xcconfig */,
+				D0D963642B932D9E59BAFF97 /* Pods-springDemoUITests.debug.xcconfig */,
+				0AD13BD5A03A2DAF1CB2A24B /* Pods-springDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CCE2A7D1E1CAB25002113AC /* Build configuration list for PBXNativeTarget "springDemo" */;
 			buildPhases = (
+				888D7DC436D7F2E62F89A7E7 /* [CP] Check Pods Manifest.lock */,
 				3CCE2A511E1CAB25002113AC /* Sources */,
 				3CCE2A521E1CAB25002113AC /* Frameworks */,
 				3CCE2A531E1CAB25002113AC /* Resources */,
+				5D79A907D31A712C008B0377 /* [CP] Embed Pods Frameworks */,
+				B3D8A6B7E23622383ED58610 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CCE2A801E1CAB25002113AC /* Build configuration list for PBXNativeTarget "springDemoTests" */;
 			buildPhases = (
+				8563DE26BF845FA17A69026A /* [CP] Check Pods Manifest.lock */,
 				3CCE2A651E1CAB25002113AC /* Sources */,
 				3CCE2A661E1CAB25002113AC /* Frameworks */,
 				3CCE2A671E1CAB25002113AC /* Resources */,
+				ADF01CDD3B3D74ECDE062F7E /* [CP] Embed Pods Frameworks */,
+				5426B5D49322E63F96798AD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CCE2A831E1CAB25002113AC /* Build configuration list for PBXNativeTarget "springDemoUITests" */;
 			buildPhases = (
+				F1F90A0A9A61640B1F053F91 /* [CP] Check Pods Manifest.lock */,
 				3CCE2A701E1CAB25002113AC /* Sources */,
 				3CCE2A711E1CAB25002113AC /* Frameworks */,
 				3CCE2A721E1CAB25002113AC /* Resources */,
+				4C0906F70E099B621A26AE9C /* [CP] Embed Pods Frameworks */,
+				29B26F3A9EE7B537D5A42FFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B26F3A9EE7B537D5A42FFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-springDemoUITests/Pods-springDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0906F70E099B621A26AE9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-springDemoUITests/Pods-springDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5426B5D49322E63F96798AD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-springDemoTests/Pods-springDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D79A907D31A712C008B0377 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-springDemo/Pods-springDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8563DE26BF845FA17A69026A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		888D7DC436D7F2E62F89A7E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF01CDD3B3D74ECDE062F7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-springDemoTests/Pods-springDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D8A6B7E23622383ED58610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-springDemo/Pods-springDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F90A0A9A61640B1F053F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CCE2A511E1CAB25002113AC /* Sources */ = {
@@ -411,6 +598,7 @@
 		};
 		3CCE2A7E1E1CAB25002113AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5ECEC6C76CBC9189AB8274 /* Pods-springDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZG94MSA64;
@@ -424,6 +612,7 @@
 		};
 		3CCE2A7F1E1CAB25002113AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E0F906FF29DE922BB5B318 /* Pods-springDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZG94MSA64;
@@ -437,6 +626,7 @@
 		};
 		3CCE2A811E1CAB25002113AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF00BD190FDB4A17E149568B /* Pods-springDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		3CCE2A821E1CAB25002113AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CBEFC1912FB4FD5DDB0234F /* Pods-springDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +658,7 @@
 		};
 		3CCE2A841E1CAB25002113AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D963642B932D9E59BAFF97 /* Pods-springDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QZG94MSA64;
@@ -481,6 +673,7 @@
 		};
 		3CCE2A851E1CAB25002113AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD13BD5A03A2DAF1CB2A24B /* Pods-springDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QZG94MSA64;
